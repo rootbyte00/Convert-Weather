@@ -10,7 +10,7 @@ def celsius_to_fehrenheit():
 	return
 def fehrenheit_to_celsius():
 	print "Convert Fehrenheit To Celsius"
-	fehrenheit = int(raw_input("Type A Number Fehrenheit Degree: "))
+	fehrenheit = int(raw_input("Type A Fehrenheit Degree: "))
 	fehrenheit -= 32
 	fehrenheit = fehrenheit / 1.8
 	celsius = "°C"
