@@ -48,7 +48,7 @@ def fehrenheit_to_kelvin():
 	print ""
 	return
 
-def kelvin_to_fehrenheir():
+def kelvin_to_fehrenheit():
 	print "Convert Fehrenheit To Kelvin"
 	kelvin = int(raw_input("Type A Kelvin Degree: "))
 	kelvin = kelvin * 9/5
