@@ -72,7 +72,7 @@ def main():
 		print ""
 		print "5\tFehrenheit To Kelvin"
 		print ""
-		print "5\tKelvin To Fehrenheit"
+		print "6\tKelvin To Fehrenheit"
 		choice = int(raw_input("Selection: "))
 		choice -= 1
 		menu[choice]()
