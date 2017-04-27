@@ -1,5 +1,6 @@
 # -*-coding:utf-8-*-
 import string
+#In The Following Lines The Program Will Ask Input From The User, And Then It Will Convert That Number To Fehrenheit
 def celsius_to_fehrenheit():
 	print "Convert Celsius To Ferenheit"
 	celsius = int(raw_input("Type A Celsius Degree: "))
@@ -8,7 +9,8 @@ def celsius_to_fehrenheit():
 	print "Its %s%s" % (celsius, fehrenheit)
 	print ""
 	return
-	
+
+#In The Following Lines The Program Will Ask Input From The User, And Then It Will Convert That Number To Celsius	
 def fehrenheit_to_celsius():
 	print "Convert Fehrenheit To Celsius"
 	fehrenheit = int(raw_input("Type A Fehrenheit Degree: "))
@@ -20,6 +22,7 @@ def fehrenheit_to_celsius():
 	
 	return 	
 
+#In The Following Lines The Program Will Ask Input From The User, And Then It Will Convert That Number To Kelvin
 def celsius_to_kelvin():
 	print "Convert Celsius To Kelvin"
 	celsius = int(raw_input("Type A Celsius Degree: "))
@@ -29,6 +32,7 @@ def celsius_to_kelvin():
 	print ""
 	return
 
+#In The Following Lines The Program Will Ask Input From The User, And Then It Will Convert That Number To Celsius
 def kelvin_to_celsius():
 	print "Convert Kelvin To Fehrenheit"
 	kelvin = int(raw_input("Type A Kelvin Degree: "))
@@ -38,6 +42,7 @@ def kelvin_to_celsius():
 	print ""
 	return
 
+#In The Following Lines The Program Will Ask Input From The User, And Then It Will Convert That Number To Kelvin
 def fehrenheit_to_kelvin():
 	print "Convert Fehrenheit To Kelvin"
 	fehrenheit = int(raw_input("Type A Fehrenheit Degree: "))
@@ -48,6 +53,7 @@ def fehrenheit_to_kelvin():
 	print ""
 	return
 
+#In The Following Lines The Program Will Ask Input From The User, And Then It Will Convert That Number To Fehrenheit
 def kelvin_to_fehrenheit():
 	print "Convert Fehrenheit To Kelvin"
 	kelvin = int(raw_input("Type A Kelvin Degree: "))
@@ -58,6 +64,7 @@ def kelvin_to_fehrenheit():
 	print ""
 	return
 
+#In The Following Lines The Program Will Ask To Select What Do You Want To Do eg'Do You Want To Convert Celsius To Fehrenheit'.
 def main():
 	menu = [celsius_to_fehrenheit, fehrenheit_to_celsius, celsius_to_kelvin, kelvin_to_celsius, fehrenheit_to_kelvin, kelvin_to_fehrenheit]
 	while(True):
