@@ -99,4 +99,5 @@ def __main__():
 		menu[choice]()
 
 	return
-__main__()
+if __name__ == "__main__":
+	__main__()
