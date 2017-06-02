@@ -1,5 +1,7 @@
 # -*-coding:utf-8-*-
 import string
+import os
+import sys
 
 #In The Following Lines The Program Will Ask Input From The User, And Then It Will Convert That Number To Fehrenheit
 
@@ -78,7 +80,7 @@ def kelvin_to_fehrenheit():
 
 #In The Following Lines The Program Will Ask To Select What Do You Want To Do eg'Do You Want To Convert Celsius To Fehrenheit'.
 
-def __main__():
+def main():
 	menu = [celsius_to_fehrenheit, fehrenheit_to_celsius, celsius_to_kelvin, kelvin_to_celsius, fehrenheit_to_kelvin, kelvin_to_fehrenheit]
 	while(True):
 		print "Select Option: "
@@ -100,7 +102,14 @@ def __main__():
 
 	return
 if __name__ == "__main__":
-	__main__()
+    try:
+        main()
+    except KeyboardInterrupt:
+        print 'Interrupted'
+        try:
+            sys.exit(0)
+        except SystemExit:
+            os._exit(0)
 	
 	
 
